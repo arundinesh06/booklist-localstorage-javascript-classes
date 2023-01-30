@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book list</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container u-full-width">
+      <h2 class="u-full-width">Book List</h2>
+      <form id="book-form" class="" u-full-width>
+        <label for="book_name" class="u-full-width">Book</label>
+        <input type="text" id="book_name" class="u-full-width" />
+        <label for="book_author" class="u-full-width">Author</label>
+        <input type="text" id="book_author" class="u-full-width" />
+        <label for="isbn" class="u-full-width">ISBN</label>
+        <input type="text" id="isbn" class="u-full-width" />
+        <input type="submit" value="submit" />
+      </form>
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <td>Book name</td>
+            <td>Author</td>
+            <td>ISBN</td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody class="book-list"></tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

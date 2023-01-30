@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+h2 {
+  margin-top: 40px;
+}
+.alert {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.alert-success {
+  background-color: green;
+}
+.alert-danger {
+  background-color: red;
+}
